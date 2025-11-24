@@ -1,0 +1,18 @@
+import React from "react";  
+
+const Jumbotron = () => {
+    return (
+        <div className="p-5 mb-4 bg-light rounded-3">
+            <div className="container py-5">
+                <h1 className="display-5 fw-bold">Landing Page</h1>
+                  <p className="col-md-8 fs-4">
+                    Jumbotron, aqui colocaremos la información principal
+                  </p>
+                  <button className="btn btn-primary btn-lg">
+                    Empieza el viaje!</button>
+            </div>
+        </div>
+    );
+};
+
+export default Jumbotron;
