@@ -6,6 +6,11 @@ import Jumbotron from "./Jumbotron.jsx";
 import Navbar from "./Navbar.jsx";
 import Digit from "./Digit.jsx";
 import CountdownDigits from "./CountdownDigits.jsx"
+import imgCard01 from "../../img/newyork_card_03.jpg";
+import imgCard02 from "../../img/newyork_card_05.jpg";
+import imgCard03 from "../../img/newyork_card_04.jpg";
+import imgCard04 from "../../img/newyork_card_02.jpg";
+
 
 
 //create your first component
@@ -18,26 +23,30 @@ const Home = ({ days, hours, minutes, seconds }) => {
 				<div className="row mt-4">
 				  <div className="col-md-3">	
 					<Card
-						imageUrl="https://picsum.photos/300/200"
-						cardText="Esta es la card 1"
+						imageUrl={imgCard01}
+						cardText="Disfrutaremos de las 
+						vistas nocturnas desde algún Rooftop"
 					/>
 				  </div>	
 					<div className="col-md-3">	
 					<Card
-						imageUrl="https://picsum.photos/300/200"
-						cardText="Esta es la card 2"
+						imageUrl={imgCard02}
+						cardText="Aprovecharemos las rebajas 
+						para ir de compritas y traernos los Reyes!!"
 					/>
 				  </div>	
 				  <div className="col-md-3">	
 					<Card
-						imageUrl="https://picsum.photos/300/200"
-						cardText="Esta es la card 3"
+						imageUrl={imgCard03}
+						cardText="Navegaremos por el  Hudson y nos deleitaremos 
+						con sus  vistas"
 					/>
 				  </div>	
 				  <div className="col-md-3">	
 					<Card
-						imageUrl="https://picsum.photos/300/200"
-						cardText="Esta es la card 4"
+						imageUrl={imgCard04}
+						cardText="Y nos perderemos por la noche 
+						de Time Square"
 					/>
 				  </div>	
 			  </div>

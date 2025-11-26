@@ -1,4 +1,8 @@
 import React from "react";
+import imgCard01 from "../../img/newyork_card_01.jpg";
+import imgCard02 from "../../img/newyork_card_02.jpg";
+import imgCard03 from "../../img/newyork_card_04.jpg";
+import imgCard04 from "../../img/newyork_card_05.jpg";
 
 const Card = ({ imageUrl, cardText }) => {
 
