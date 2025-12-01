@@ -5,6 +5,7 @@ import Card from "./Card.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Navbar from "./Navbar.jsx";
 import Digit from "./Digit.jsx";
+import Footer from "./Footer.jsx";
 import CountdownDigits from "./CountdownDigits.jsx"
 import imgCard01 from "../../img/newyork_card_03.jpg";
 import imgCard02 from "../../img/newyork_card_05.jpg";
@@ -67,8 +68,10 @@ const Home = ({ days, hours, minutes, seconds }) => {
 				/>
 			  </div>
 			</div>
+			<Footer />
 		</>
 	);
 };
+
 
 export default Home;
