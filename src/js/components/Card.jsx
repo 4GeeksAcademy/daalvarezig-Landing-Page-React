@@ -4,14 +4,21 @@ import imgCard02 from "../../img/newyork_card_02.jpg";
 import imgCard03 from "../../img/newyork_card_04.jpg";
 import imgCard04 from "../../img/newyork_card_05.jpg";
 
-const Card = ({ imageUrl, cardText }) => {
+const Card = ({ imageUrl, cardText, buttonText, buttonLink }) => {
 
 return ( 
-    <div className="card" style={{ width: "18rem" }}>
-        <img className="card-img-top" src={ imageUrl } alt="..."/>
-        <div className="card-body">
+    <div className="card h-100">
+      <div className="ratio ratio-1x1">  
+        <img className="card-img-top img-fluid object-fit-cover" src={ imageUrl } alt="..."/>
+      </div> 
+         <div className="card-body">
              <p className="card-text" >{ cardText }</p>
-        </div>
+         </div>
+         {buttonText && (
+         <a href={buttonLink} target="_blank" className="btn btn-primary btn-lg">
+                    { buttonText }</a>
+         )}
+      
     </div>
  );
 };

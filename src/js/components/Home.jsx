@@ -16,37 +16,45 @@ import imgCard04 from "../../img/newyork_card_02.jpg";
 //create your first component
 const Home = ({ days, hours, minutes, seconds }) => {
 	return (
-		<>
+		<> 
 			<Navbar />
 			<div className="container mt-4">
-				<Jumbotron />
+				<Jumbotron 
+				buttonLink="https://www.google.com/maps/d/edit?mid=1QLZi_bpo_2fpLn1ONjHtpSdFxLtrOQM&usp=sharing"
+				/>
 				<div className="row mt-4">
-				  <div className="col-md-3">	
+				  <div className="col-md-3 p-2">	
 					<Card
 						imageUrl={imgCard01}
-						cardText="Disfrutaremos de las 
-						vistas nocturnas desde algún Rooftop"
+						cardText="Disfrutaremos de las vistas nocturnas desde algún Rooftop"
+						buttonText="Los mejores Rooftop!"
+						buttonLink="https://www.anuevayork.com/mejor-mirador-de-nueva-york/"
 					/>
 				  </div>	
-					<div className="col-md-3">	
+					<div className="col-md-3 p-2">	
 					<Card
 						imageUrl={imgCard02}
-						cardText="Aprovecharemos las rebajas 
-						para ir de compritas y traernos los Reyes!!"
+						cardText="Aprovecharemos las rebajas para ir de compritas y traernos los Reyes!!"
+						buttonText="Donde ir de compras!"
+						buttonLink="https://www.anuevayork.com/donde-comprar-ropa-nueva-york/"
+
 					/>
 				  </div>	
-				  <div className="col-md-3">	
+				  <div className="col-md-3 p-2"> 	
 					<Card
 						imageUrl={imgCard03}
-						cardText="Navegaremos por el  Hudson y nos deleitaremos 
-						con sus  vistas"
+						cardText="Navegaremos por el  Hudson y nos deleitaremos con sus  vistas"
+						buttonText="Las mejores vistas!"
+						buttonLink="https://www.kiwakatravel.com/paseando-por-el-rio-hudson"
 					/>
 				  </div>	
-				  <div className="col-md-3">	
+				  <div className="col-md-3 p-2">	
 					<Card
 						imageUrl={imgCard04}
-						cardText="Y nos perderemos por la noche 
-						de Time Square"
+						cardText="Y nos perderemos por la noche de Time Square"
+						buttonText="Planes en New York!"
+						buttonLink="https://www.instagram.com/reel/DRLeMKsjFMi/?igsh=MWF5dDA0dDZ0MTFy"
+
 					/>
 				  </div>	
 			  </div>

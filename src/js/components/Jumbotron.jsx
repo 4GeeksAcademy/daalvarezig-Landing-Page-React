@@ -1,7 +1,7 @@
 import React from "react";  
 import jumbotronImage from "../../img/newyork_jumbotron.jpg";
 
-const Jumbotron = () => {
+const Jumbotron = ({ buttonLink }) => {
     return (
         <div className="p-5 mb-4 bg-light rounded-3"
           style={{
@@ -19,8 +19,8 @@ const Jumbotron = () => {
                     las rebajas navideñas para comprar los Reyes Magos, pasaremos frio
                     y disfrutaremos de la magia navideña...
                   </p>
-                  <button className="btn btn-primary btn-lg">
-                    Empieza el viaje!</button>
+                  <a href={buttonLink} target="_blank" className="btn btn-primary btn-lg">
+                    Empieza el viaje!</a>
             </div>
         </div>
     );

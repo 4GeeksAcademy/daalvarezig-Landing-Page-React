@@ -45,10 +45,11 @@ return (
             </div>
             {/* Labels */}
             <div className="d-flex justify-content-between mt-2 w-100 text-white">
-                <small className="text-center" style={{ width: "25%" }}>Días</small>
-                <small className="text-center" style={{ width: "25%" }}>Horas</small>
-                <small className="text-center" style={{ width: "25%" }}>Minutos</small>
-                <small className="text-center" style={{ width: "25%" }}>Segundos</small>
+                <small className="text-center" style={{ width: "34%" }}>Días</small>
+                <small className="text-center" style={{ width: "03%" }}>Horas</small>
+                <small className="text-center" style={{ width: "15%" }}>Minutos</small>
+                <small className="text-center" style={{ width: "05%" }}>Segundos</small>
+                <small className="text-center" style={{ width: "15%" }}>  </small>
             </div>
         </div>
     );
